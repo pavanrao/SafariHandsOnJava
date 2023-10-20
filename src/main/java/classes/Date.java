@@ -39,6 +39,7 @@ public class Date {
     } else {
       throw new IllegalArgumentException("Bad values for a date");
     }
+    System.out.println("Returning from Date constructor");
   }
 
 //  public static void setDay(Date d, int day) {
